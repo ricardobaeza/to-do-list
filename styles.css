@@ -38,6 +38,7 @@ header {
     border: 2px solid #dadfea;
     height: 30px;
     padding: 17px 12px;
+    border-radius: 2px;
 }
 
 .x-and-check {

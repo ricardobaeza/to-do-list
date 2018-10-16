@@ -13,8 +13,8 @@ let myinput = $('#myInput').val();
     if (myinput === '') {
         alert('you have to enter something in the text field');
     } else {
-        $('#list').append('<div class="listItemContainer">' + '<div contenteditable="true" class="card-body listItem">' + myinput +
-            '</div>'  + '<span>' + '<i class=" delete far fa-times-circle"></i>' + '<i class="completed fas fa-check"></i>' + '</span>' + '</div>');
+        $('#list').append('<div class=" card-body listItemContainer">' + '<div contenteditable="true" class=" listItem">' + myinput +
+            '</div>'  + '<span class="x-and-check">' + '<i class=" delete far fa-times-circle"></i>' + '<i class="completed fas fa-check"></i>' + '</span>' + '</div>');
     }
     $('#myInput').val("");
     $('.delete').click(function () {

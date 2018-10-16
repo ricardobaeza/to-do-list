@@ -19,13 +19,27 @@ input {
     padding: 10px 10px 10px 15px;
 }
 
-.listItem {
-    display: inline;
-    width: 50%;
 
-
+.listItemContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #dadfea;
+    height: 30px;
+    padding: 17px 12px;
 }
 
-.deleteComplete {
+.x-and-check {
+    border-left: 4px solid #dadfea;
+
+    padding-left: 10px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 4%;
+}
+
+.line-through {
     text-decoration: line-through;
 }

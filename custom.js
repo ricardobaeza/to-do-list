@@ -22,7 +22,7 @@ let myinput = $('#myInput').val();
     });
 
     $('.completed').click(function () {
-        $(this).parent().parent().css('background-color', '#62f774');
+        $(this).parent().parent().css('background-color', '#aefcbf');
         $(this).parent().parent().addClass('deleteComplete');
     })
 };

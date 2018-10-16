@@ -25,3 +25,7 @@ input {
 
 
 }
+
+.deleteComplete {
+    text-decoration: line-through;
+}

@@ -9,6 +9,14 @@ input {
     margin: 0;
 }
 
+header {
+    padding: 70px;
+    background-color: #4cadf7;
+    margin-bottom: 20px;
+    box-shadow: 0 0 3px 5px #dadfea;
+
+}
+
 #todo-list {
     display: flex;
     flex-direction: column;

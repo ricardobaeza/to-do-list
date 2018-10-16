@@ -1,13 +1,33 @@
+
+
+
+
+
+
 let newElement = () => {
-    let newLi = document.createElement('li');
-    let input = document.getElementById('myInput').value;
-    let text = document.createTextNode(input);
-    newLi.appendChild(text);
-    if (input === '') {
-         alert('you need to add something in');
+let myinput = $('#myInput').val();
+    if (myinput === '') {
+        alert('you have to enter something in the text field');
     } else {
-        document.getElementById('list').appendChild(newLi);
+        $('#list').append('<div class="listItemContainer">' + '<div contenteditable="true" class="listItem">' + myinput +
+            '</div>'  + '<span>' + '<i class=" delete far fa-times-circle"></i>' + '<i class="completed fas fa-check"></i>' + '</span>' + '</div>');
     }
+    $('#myInput').val("");
+    $('.delete').click(function () {
+            $(this).parent().parent().remove();
+    });
+
+    $('.completed').click(function () {
+        $(this).parent().parent().css('background-color', '#62f774');
+        myinput.style.textDecoration = 'line-through';
+    })
 };
 
 
+
+
+
+
+let  completedListItem = () => {
+    console.log('you got your check mark to work now make something with it')
+}

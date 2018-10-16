@@ -1,9 +1,4 @@
-#list > li {
-    background: beige;
-    list-style-type: none;
-    padding: 10px;
 
-}
 
 #list {
     padding: 0;
@@ -22,4 +17,11 @@ input {
 #fa-button {
     background: #CCC8C5;
     padding: 10px 10px 10px 15px;
+}
+
+.listItem {
+    display: inline;
+    width: 50%;
+
+
 }

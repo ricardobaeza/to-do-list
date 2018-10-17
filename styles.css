@@ -11,7 +11,7 @@ input {
 
 header {
     padding: 70px;
-    background-color: #4cadf7;
+    background-image: linear-gradient(to right, #0061ff, #4CADF7);
     margin-bottom: 20px;
     box-shadow: 0 0 3px 5px #dadfea;
 
